@@ -1,4 +1,4 @@
 # Calculator
 <img src="https://i.imgur.com/gXszfUp.jpg" alt="Calculator" width="400" height="400">
-# Go to the scripts file. I used the calc.css script to implement the calculator but there are many more ways to implement the method as well.
+Headings are a great way to break up your text into sections. They also help to make your text more readable and easier to follow. You can use up to six levels of headings, which are indicated by the number of hash symbols (`#`) at the beginning of the line.
 
