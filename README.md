@@ -1,2 +1,2 @@
 # Calculator
-![Calculator](C:\Users\ranga\Downloads\WhatsApp Image 2023-04-09 at 10.19.34 AM.jpeg)
+![Calculator](https://github.com/RanganDas/Calculator/blob/master/images/WhatsApp%20Image%202023-04-09%20at%2010.19.34%20AM.jpeg)
