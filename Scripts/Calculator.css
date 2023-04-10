@@ -1,0 +1,57 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+public class Calculator : MonoBehaviour
+{
+    public Text resultText;
+    private float firstNumber;
+    private float secondNumber;
+    private string operation;
+
+    public void SetOperation(string op)
+    {
+        operation = op;
+        firstNumber = float.Parse(resultText.text);
+        resultText.text = "";
+    }
+
+    public void CalculateResult()
+    {
+        secondNumber = float.Parse(resultText.text);
+        float result = 0f;
+
+        switch(operation)
+        {
+            case "+":
+                result = firstNumber + secondNumber;
+                break;
+            case "-":
+                result = firstNumber - secondNumber;
+                break;
+            case "*":
+                result = firstNumber * secondNumber;
+                break;
+            case "/":
+                result = firstNumber / secondNumber;
+                break;
+            default:
+                Debug.LogError("Invalid Operation");
+                break;
+        }
+
+        resultText.text = result.ToString();
+    }
+
+    public void ClearResult()
+    {
+        firstNumber = 0f;
+        secondNumber = 0f;
+        operation = "";
+        resultText.text = "";
+    }
+
+    public void AddDigit(int digit)
+    {
+        resultText.text += digit.ToString();
+    }
+}
