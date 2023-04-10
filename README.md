@@ -1,2 +1,2 @@
 # Calculator
-![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
+![Calculator]("C:\Users\ranga\Downloads\WhatsApp Image 2023-04-09 at 10.19.34 AM.jpeg")
